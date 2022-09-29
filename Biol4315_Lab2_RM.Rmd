@@ -1,0 +1,10 @@
+---
+title: "Biol4315_Lab2_RM"
+author: "Oceanne.W"
+date: "`r format(Sys.time(), '%Y %B, %d')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```

@@ -33,7 +33,7 @@ if(!require("ggplot2")){
 
 ## **Dune Transformation** ##
 Log transformation on the dune dataset
-```{r}
+```{r, results=FALSE}
 #Load dune data from vegan package
 data(dune)
 #Reassign to a new variable

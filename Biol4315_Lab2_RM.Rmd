@@ -49,3 +49,14 @@ set.seed(55)
 mdsDune2 <- metaMDS(dune2)
 dpoints <- as.data.frame(mdsDune2$points) 
 ```
+
+## **Plot NMDS** ##
+Plot dune dataset MDS points with ggplot
+```{r}
+pNMDS <- ggplot(dpoints, aes(x=MDS1, y = MDS2))+
+  geom_point(size=2)+
+  theme_bw(base_size = 16)+
+  ggtitle("NMDS Dune dataset Bray Curtis distances")
+#Display on canvas 
+pNMDS
+```

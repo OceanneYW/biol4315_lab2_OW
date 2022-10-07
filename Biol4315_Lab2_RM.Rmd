@@ -39,3 +39,13 @@ dune2 <- dune
 #log1p transformation
 log1p(dune2)
 ```
+
+## **NMDS** ##
+Perform metaMDS function on dune dataset with default parameters.
+```{r, results = FALSE}
+#For reproducibility
+set.seed(55)
+#Default setting used
+mdsDune2 <- metaMDS(dune2)
+dpoints <- as.data.frame(mdsDune2$points) 
+```

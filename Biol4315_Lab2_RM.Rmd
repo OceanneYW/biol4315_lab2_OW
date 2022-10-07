@@ -56,7 +56,7 @@ Plot dune dataset MDS points with ggplot
 pNMDS <- ggplot(dpoints, aes(x=MDS1, y = MDS2))+
   geom_point(size=2)+
   theme_bw(base_size = 16)+
-  ggtitle("NMDS Dune dataset Bray Curtis distances")
+  ggtitle("NMDS Dune dataset Bray")
 #Display on canvas 
 pNMDS
 ```
